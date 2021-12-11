@@ -1,0 +1,23 @@
+
+:root {
+
+    --offcanvas-width: 290px;
+    --nav-height: 56px;
+}
+
+.sidebar-nav{
+    width: var(--offcanvas-width);
+}
+
+
+
+
+@media (min-width: 990px) {
+   
+    .sidebar-nav{
+        top: var(--nav-height);
+        height: calc(100% - var(--nav-height));
+    }
+
+}
+    
